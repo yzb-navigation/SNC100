@@ -24,8 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    xjdk_serial.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    xjdk_serial.h
 
 FORMS    += mainwindow.ui
